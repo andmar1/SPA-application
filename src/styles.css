@@ -5,6 +5,16 @@
 .jumbotron{
     background-color: rgb(201, 201, 201);
 }
+.boton{
+  display: flex;
+  justify-content: center;
+}
+
+.ancho{
+  width: 90%;
+  /* display: flex; */
+  margin: auto;
+}
 
 /* animate */
 

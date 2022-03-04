@@ -68,11 +68,6 @@ export class HeroesService{
       return this.heroes[idx];
     }
 
-
-
-
-
-    
     buscarCasa( nombre:string ){
       const res = this.heroes.filter( e => e.nombre === nombre)
       console.table(res)

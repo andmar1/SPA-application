@@ -65,6 +65,13 @@ export class HeroesService{
     }
 
 
+
+
+    
+    buscarCasa( nombre:string ){
+      const res = this.heroes.filter( e => e.nombre === nombre)
+      console.table(res)
+    }
 }
 
 export interface Heroe{
@@ -73,6 +80,6 @@ export interface Heroe{
     img:string;
     aparicion:string;
     casa:string;
-  }
+}
 
 

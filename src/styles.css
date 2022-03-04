@@ -10,6 +10,10 @@
   justify-content: center;
 }
 
+.carta{
+  gap: 1px;
+}
+
 .ancho{
   width: 90%;
   /* display: flex; */

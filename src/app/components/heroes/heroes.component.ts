@@ -10,15 +10,21 @@ import { HeroesService, Heroe } from '../../services/heroes.services';
 
 export class HeroesComponent implements OnInit {
 
-  heores:Heroe[] = []
+  heroes:Heroe[] = []
 
   constructor( private _heroesService:HeroesService  ) {
   }
 
   ngOnInit(): void {
-    this.heores= this._heroesService.getHeroes();
+    this.heroes= this._heroesService.getHeroes();
 
-    console.log(this.heores);
+    console.log(this.heroes);
+
+
+
+
+    
+    // this._heroesService.buscarCasa( 'Hulk' )
   }
 
 }

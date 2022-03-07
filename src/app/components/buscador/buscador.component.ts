@@ -30,3 +30,5 @@ export class BuscadorComponent implements OnInit {
     })
   }
 }
+
+

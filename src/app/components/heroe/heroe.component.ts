@@ -2,8 +2,6 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { HeroesService } from '../../services/heroes.services';
 
-
-
 @Component({
   selector: 'app-heroe',
   templateUrl: './heroe.component.html',
@@ -11,7 +9,7 @@ import { HeroesService } from '../../services/heroes.services';
 })
 export class HeroeComponent {
 
-  heroe:any = {}
+  heroe:any = {};
 
   mostrar = true;
 
